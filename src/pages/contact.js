@@ -3,17 +3,17 @@ import { Link } from 'gatsby'
 import Layout from '../components/common/layout'
 import Seo from '../components/common/seo'
 
-const AboutPage = () => {
+const ContactPage = () => {
   return (
-    <Layout pageTitle={"About Me"}>
-      <p>{"Hi there! I'm the proud creator of this site, which I built with Gatsby."}</p>
+    <Layout pageTitle={"Contact us"}>
+      <p>{"Contact us page"}</p>
     </Layout>
   )
 }
 
 export const Head = () => (<>
-  <Seo title="About Me" />
+  <Seo title="Contact us" />
   <meta name="description" content="Your description" />
   </>)
 
-export default AboutPage
+export default ContactPage
