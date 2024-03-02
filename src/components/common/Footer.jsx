@@ -1,4 +1,5 @@
 import React from "react";
+import {addressIcon, emailIcon, hindfloIcon, phoneIcon}  from "./image";
 
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
       <div className="mx-auto max-w-screen-xl">
           <div className="md:flex md:justify-between">
               <div className="mb-6 md:mb-0">
-                    <img src="/images/hindflo.jpeg" className="w-80" alt="Hindflo Logo" />
+                    <img src={hindfloIcon} className="w-80" alt="Hindflo Logo" />
               </div>
               <div className="grid grid-cols-1 sm:gap-6 sm:grid-cols-2">
                   {/* <div>
@@ -38,13 +39,13 @@ const Footer = () => {
                       {/* <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white flex whitespace-nowrap"><img className="size-6 mr-1" src="/images/address.png" alt="Phone"/> Address ABC - XYZ</h2> */}
                       <ul className="text-gray-600 dark:text-gray-400">
                           <li className="mb-4">
-                              <a href="#" className="hover:underline flex"><img className="size-6 mr-2" src="/images/address.png" alt="Phone"/> Abcde fghijkl mnop qrstuvw xyz</a>
+                              <a href="#" className="hover:underline flex"><img className="size-6 mr-2" src={addressIcon} alt="Phone"/> Abcde fghijkl mnop qrstuvw xyz</a>
                           </li>
                           <li className="mb-4">
-                              <a href="#" className="hover:underline flex"><img className="size-6 mr-2" src="/images/phone.png" alt="Phone"/> +910123456789</a>
+                              <a href="#" className="hover:underline flex"><img className="size-6 mr-2" src={phoneIcon} alt="Phone"/> +910123456789</a>
                           </li>
                           <li>
-                              <a href="#" className="hover:underline flex"><img className="size-6 mr-2" src="/images/email.png" alt="Phone"/> hindflo@gmail.com</a>
+                              <a href="#" className="hover:underline flex"><img className="size-6 mr-2" src={emailIcon} alt="Phone"/> hindflo@gmail.com</a>
                           </li>
                       </ul>
                   </div>

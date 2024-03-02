@@ -1,4 +1,5 @@
 import React from "react";
+import { emailWhiteIcon, hindfloIcon, phoneWhiteIcon } from "./image";
 
 const Header = () => {
   return (
@@ -7,15 +8,15 @@ const Header = () => {
             <div className="block sm:flex items-center text-white px-4 py-4 max-w-screen-xl mx-auto">
                 <div className="mb-2 sm:mb-0">Dealer Distributor Enquiry</div>
                 <div className="block sm:flex ml-auto">
-                    <a href="#" className="hover:underline flex mb-2 sm:mb-0 mr-4"><img className="size-6 mr-2" src="/images/email-white.png" alt="Email"/> hindflo@gmail.com</a>
-                    <a href="#" className="hover:underline flex"><img className="size-6 mr-2" src="/images/phone-white.png" alt="Phone"/> +910123456789</a>
+                    <a href="#" className="hover:underline flex mb-2 sm:mb-0 mr-4"><img className="size-6 mr-2" src={emailWhiteIcon} alt="Email"/> hindflo@gmail.com</a>
+                    <a href="#" className="hover:underline flex"><img className="size-6 mr-2" src={phoneWhiteIcon} alt="Phone"/> +910123456789</a>
                 </div>
             </div>
         </div>
         <header className="sticky top-0 z-50">
             <nav className="bg-white border-gray-200 border-b px-4 lg:px-6 py-2.5 dark:bg-gray-800">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-                    <img src="/images/hindflo.jpeg" className="w-64 mb-3 sm:mb-0" alt="Hinflo Logo" />  
+                    <img src={hindfloIcon} className="w-64 mb-3 sm:mb-0" alt="Hinflo Logo" />  
                     <div className="flex items-center lg:order-2 w-full sm:w-auto justify-between sm:justify-start">
                         {/* <a href="#" className="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Log in</a> */}
                         <a href="#" className="text-white bg-blue-700 hover:bg-blue-900 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-blue-700 dark:hover:bg-blue-900 focus:outline-none dark:focus:ring-blue-900">Get started</a>
