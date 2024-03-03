@@ -2,6 +2,7 @@ import React from "react";
 import {addressIcon, emailIcon, hindfloIcon, phoneIcon}  from "./image";
 
 const Footer = () => {
+    let pathName = window.location.pathname;
   return (
     <footer className="p-4 bg-white sm:p-6 dark:bg-gray-800">
       <div className="mx-auto max-w-screen-xl">
@@ -25,13 +26,13 @@ const Footer = () => {
                       <h2 className="mb-2 sm:mb-3 text-sm font-semibold text-gray-900 uppercase dark:text-white">Navigation</h2>
                       <ul className="text-gray-600 dark:text-gray-400">
                           <li className="mb-1">
-                              <a href="/" className="hover:underline ">Home</a>
+                              <a href="/" className={`${pathName === "/" && "text-blue-700 font-bold" } hover:underline`}>Home</a>
                           </li>
                           <li className="mb-1">
-                              <a href="/about" className="hover:underline">About Us</a>
+                              <a href="/about" className={`${pathName === "/about/" && "text-blue-700 font-bold" } hover:underline`}>About Us</a>
                           </li>
                           <li>
-                              <a href="/contact" className="hover:underline">Contact Us</a>
+                              <a href="/contact" className={`${pathName === "/contact/" && "text-blue-700 font-bold" } hover:underline`}>Contact Us</a>
                           </li>
                       </ul>
                   </div>
