@@ -1,5 +1,7 @@
 import React from "react";
-import { emailWhiteIcon, hindfloIcon, phoneWhiteIcon } from "./image";
+import { MdEmail } from "react-icons/md";
+import { PiPhoneCallFill } from "react-icons/pi";
+import { hindfloIcon, phoneWhiteIcon } from "./image";
 
 const Header = () => {
     let pathName = window.location.pathname;
@@ -9,8 +11,10 @@ const Header = () => {
             <div className="block sm:flex items-center text-white px-4 py-4 max-w-screen-xl mx-auto">
                 <div className="mb-2 sm:mb-0">Dealer Distributor Enquiry</div>
                 <div className="block sm:flex ml-auto">
-                    <a href="#" className="hover:underline flex mb-2 sm:mb-0 mr-4"><img className="w-6 h-6 mr-2" src={emailWhiteIcon} alt="Email"/> hindflo@gmail.com</a>
-                    <a href="#" className="hover:underline flex"><img className="w-6 h-6 mr-2" src={phoneWhiteIcon} alt="Phone"/> +910123456789</a>
+                    <MdEmail size={24} className="mr-2" />
+                    <a href="mailto:hindflo@gmail.com" className="hover:underline mb-2 sm:mb-0 mr-4">hindflo@gmail.com</a>
+                    <PiPhoneCallFill size={24} className="mr-2" />
+                    <a href="tel:+910123456789" className="hover:underline">+910123456789</a>
                 </div>
             </div>
         </div>

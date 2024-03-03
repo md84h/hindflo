@@ -1,7 +1,9 @@
 import * as React from 'react'
 import Layout from '../components/common/layout'
 import Seo from '../components/common/seo'
-import { addressIcon, emailIcon, phoneIcon } from '../components/common/image'
+import { FaMapMarkedAlt } from "react-icons/fa";
+import { PiPhoneCallFill } from "react-icons/pi";
+import { MdEmail } from "react-icons/md";
 
 const ContactPage = () => {
   return (
@@ -15,7 +17,7 @@ const ContactPage = () => {
           <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0 text-center">
               <div>
                   <div className="flex justify-center items-center mx-auto mb-4 w-24 h-24 rounded-xl bg-blue-100">
-                      <img className='w-16 h-16' src={emailIcon} alt='Email Icon'/>
+                      <MdEmail className='w-16 h-16 text-blue-700'/>
                   </div>
                   <h3 className="mb-2 text-xl font-bold dark:text-white">Email us:</h3>
                   <p className="text-gray-500 dark:text-gray-400">Email us for general queries, including marketing and partnership opportunities.</p>
@@ -23,7 +25,7 @@ const ContactPage = () => {
               </div>
               <div>
                   <div className="flex justify-center items-center mx-auto mb-4 w-24 h-24 rounded-xl bg-blue-100">
-                      <img className='w-16 h-16' src={phoneIcon} alt='Phone Icon'/>
+                      <PiPhoneCallFill className='w-16 h-16 text-blue-700' />
                   </div>
                   <h3 className="mb-2 text-xl font-bold dark:text-white">Call us:</h3>
                   <p className="text-gray-500 dark:text-gray-400">Call us to speak to a member of our team. We are always happy to help.</p>
@@ -31,9 +33,10 @@ const ContactPage = () => {
               </div>
               <div>
                   <div className="flex justify-center items-center mx-auto mb-4 w-24 h-24 rounded-xl bg-blue-100">
-                  <img className='w-16 h-16' src={addressIcon} alt='Address Icon'/>                  </div>
+                  <FaMapMarkedAlt className='w-16 h-16 text-blue-700' />
+                  </div>
                   <h3 className="mb-2 text-xl font-bold dark:text-white">Address:</h3>
-                  <p className="text-gray-500 dark:text-gray-400">Abcdrefg hijk lmn op qrstuv wxyz</p>
+                  <p className="text-gray-500 dark:text-gray-400">Punthar Tanda Ambedkar Nagar U.P. 224190</p>
               </div>
           </div>
       </div>

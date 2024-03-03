@@ -1,5 +1,8 @@
 import React from "react";
-import {addressIcon, emailIcon, hindfloIcon, phoneIcon}  from "./image";
+import { FaMapMarkedAlt } from "react-icons/fa";
+import { PiPhoneCallFill } from "react-icons/pi";
+import { MdEmail } from "react-icons/md";
+import { hindfloIcon }  from "./image";
 
 const Footer = () => {
     let pathName = window.location.pathname;
@@ -40,13 +43,13 @@ const Footer = () => {
                       {/* <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white flex whitespace-nowrap"><img className="w-6 h-6 mr-1" src="/images/address.png" alt="Phone"/> Address ABC - XYZ</h2> */}
                       <ul className="text-gray-600 dark:text-gray-400">
                           <li className="mb-4">
-                              <a href="#" className="hover:underline flex"><img className="w-6 h-6 mr-2" src={addressIcon} alt="Phone"/> Abcde fghijkl mnop qrstuvw xyz</a>
+                              <a href="#" className="hover:underline flex"><FaMapMarkedAlt size={24} className="mr-2 text-blue-700" />Punthar Tanda Ambedkar Nagar U.P. 224190</a>
                           </li>
                           <li className="mb-4">
-                              <a href="#" className="hover:underline flex"><img className="w-6 h-6 mr-2" src={phoneIcon} alt="Phone"/> +910123456789</a>
+                              <a href="tel:+910123456789" className="hover:underline flex"><PiPhoneCallFill size={24} className="mr-2 text-blue-700" />+910123456789</a>
                           </li>
                           <li>
-                              <a href="#" className="hover:underline flex"><img className="w-6 h-6 mr-2" src={emailIcon} alt="Phone"/> hindflo@gmail.com</a>
+                              <a href="mailto:hindflo@gmail.com" className="hover:underline flex"><MdEmail size={24} className="mr-2 text-blue-700" />hindflo@gmail.com</a>
                           </li>
                       </ul>
                   </div>
