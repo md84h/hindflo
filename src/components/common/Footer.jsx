@@ -37,16 +37,16 @@ const Footer = () => {
                       </ul>
                   </div>
                   <div>
-                      {/* <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white flex whitespace-nowrap"><img className="size-6 mr-1" src="/images/address.png" alt="Phone"/> Address ABC - XYZ</h2> */}
+                      {/* <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white flex whitespace-nowrap"><img className="w-6 h-6 mr-1" src="/images/address.png" alt="Phone"/> Address ABC - XYZ</h2> */}
                       <ul className="text-gray-600 dark:text-gray-400">
                           <li className="mb-4">
-                              <a href="#" className="hover:underline flex"><img className="size-6 mr-2" src={addressIcon} alt="Phone"/> Abcde fghijkl mnop qrstuvw xyz</a>
+                              <a href="#" className="hover:underline flex"><img className="w-6 h-6 mr-2" src={addressIcon} alt="Phone"/> Abcde fghijkl mnop qrstuvw xyz</a>
                           </li>
                           <li className="mb-4">
-                              <a href="#" className="hover:underline flex"><img className="size-6 mr-2" src={phoneIcon} alt="Phone"/> +910123456789</a>
+                              <a href="#" className="hover:underline flex"><img className="w-6 h-6 mr-2" src={phoneIcon} alt="Phone"/> +910123456789</a>
                           </li>
                           <li>
-                              <a href="#" className="hover:underline flex"><img className="size-6 mr-2" src={emailIcon} alt="Phone"/> hindflo@gmail.com</a>
+                              <a href="#" className="hover:underline flex"><img className="w-6 h-6 mr-2" src={emailIcon} alt="Phone"/> hindflo@gmail.com</a>
                           </li>
                       </ul>
                   </div>

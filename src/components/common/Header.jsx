@@ -9,8 +9,8 @@ const Header = () => {
             <div className="block sm:flex items-center text-white px-4 py-4 max-w-screen-xl mx-auto">
                 <div className="mb-2 sm:mb-0">Dealer Distributor Enquiry</div>
                 <div className="block sm:flex ml-auto">
-                    <a href="#" className="hover:underline flex mb-2 sm:mb-0 mr-4"><img className="size-6 mr-2" src={emailWhiteIcon} alt="Email"/> hindflo@gmail.com</a>
-                    <a href="#" className="hover:underline flex"><img className="size-6 mr-2" src={phoneWhiteIcon} alt="Phone"/> +910123456789</a>
+                    <a href="#" className="hover:underline flex mb-2 sm:mb-0 mr-4"><img className="w-6 h-6 mr-2" src={emailWhiteIcon} alt="Email"/> hindflo@gmail.com</a>
+                    <a href="#" className="hover:underline flex"><img className="w-6 h-6 mr-2" src={phoneWhiteIcon} alt="Phone"/> +910123456789</a>
                 </div>
             </div>
         </div>

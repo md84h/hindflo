@@ -14,24 +14,24 @@ const ContactPage = () => {
           </div>
           <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0 text-center">
               <div>
-                  <div className="flex justify-center items-center mx-auto mb-4 size-24 rounded-xl bg-blue-100">
-                      <img className='size-16' src={emailIcon} alt='Email Icon'/>
+                  <div className="flex justify-center items-center mx-auto mb-4 w-24 h-24 rounded-xl bg-blue-100">
+                      <img className='w-16 h-16' src={emailIcon} alt='Email Icon'/>
                   </div>
                   <h3 className="mb-2 text-xl font-bold dark:text-white">Email us:</h3>
                   <p className="text-gray-500 dark:text-gray-400">Email us for general queries, including marketing and partnership opportunities.</p>
                   <p className="text-blue-700 font-bold">hindflo@gmail.com</p>
               </div>
               <div>
-                  <div className="flex justify-center items-center mx-auto mb-4 size-24 rounded-xl bg-blue-100">
-                      <img className='size-16' src={phoneIcon} alt='Phone Icon'/>
+                  <div className="flex justify-center items-center mx-auto mb-4 w-24 h-24 rounded-xl bg-blue-100">
+                      <img className='w-16 h-16' src={phoneIcon} alt='Phone Icon'/>
                   </div>
                   <h3 className="mb-2 text-xl font-bold dark:text-white">Call us:</h3>
                   <p className="text-gray-500 dark:text-gray-400">Call us to speak to a member of our team. We are always happy to help.</p>
                   <p className="text-blue-700 font-bold">+910123456789</p>
               </div>
               <div>
-                  <div className="flex justify-center items-center mx-auto mb-4 size-24 rounded-xl bg-blue-100">
-                  <img className='size-16' src={addressIcon} alt='Address Icon'/>                  </div>
+                  <div className="flex justify-center items-center mx-auto mb-4 w-24 h-24 rounded-xl bg-blue-100">
+                  <img className='w-16 h-16' src={addressIcon} alt='Address Icon'/>                  </div>
                   <h3 className="mb-2 text-xl font-bold dark:text-white">Address:</h3>
                   <p className="text-gray-500 dark:text-gray-400">Abcdrefg hijk lmn op qrstuv wxyz</p>
               </div>
